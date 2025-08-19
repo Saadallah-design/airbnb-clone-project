@@ -199,7 +199,7 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 5. ***Regular Audits and Monitoring***.
 6. ***Principle of Least Privilege***: All system accounts and services will be granted only the minimum permissions necessary to perform their functions. For example, a database user for the web application will only have read and write permissions to the application's data, not to system-level tables.
 
-## CI/CD pipeline 
+## CI/CD Pipeline 
 These pipelines automate the process of building, testing and deploying software.
 
 ### Importance of CI/CD in the project

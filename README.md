@@ -90,14 +90,6 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 9. **CI/CD pipelines**: are a set of automated practices that help developers deliver software faster and more reliably by building, testing, and deploying code changes. It's a fundamental part of modern DevOps and Agile methodologies. The acronym stands for Continuous Integration, Continuous Delivery, and Continuous Deployment.
 
 
-
-
-
-
-
-
-
-
 ## Team Roles
 
 ### According to ALX team role
@@ -145,7 +137,29 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
     - Facilitates cooperation between development and operations teams
     - Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery
 
-## Tech Stack Overview
+## Database Design
+
+1. Users
+    - a user can list many properties.
+    - can book multiple properties.
+    - can pay with different payment methods
+    - can leave multiple review for different bookings and properties.
+
+2. Properties
+    - A property can be listed by more than one user
+    - a property can be paid for with different payment methods
+3. Bookings
+    - each booking has a unique current user
+    - bookings have a start and end date
+    - bookings have different payment methods
+4. Payments
+    - each user has their own payment method
+    - each user can have multiple payment methods
+    - use can pay for multiple bookings
+5. Reviews
+    - reviews can be about a single and multiple properties/bookings
+    - user with different reviews for different bookings
+    - user with different reviews for same booking
 
 
 

@@ -183,4 +183,18 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
     - ***Indexing***: Implement indexes for fast retrieval of frequently accessed data. 
     - ***Caching***: Use caching strategies to reduce database load and improve performance.
 
+## API Security
+<role>: securing the backend of the program
 
+1. ***Authentication***: protecting users profiles through confirming their identity through using appropriate technique (secure password storage, multi-factor authentication, session management).
+2. ***Authorization***: protecting user data from penetration via determining their permissions (role-based accesscontrol, object-level permissions).
+3. ***Rate limiting***: a technique to control the number of reauests a user can make to server withing a given time period.
+    - ***DDos Protection***:  It helps mitigate Distributed Denial-of-Service (DDoS) attacks by blocking an overwhelming flood of requests that would otherwise crash the server.
+    - ***Brute-Force Attack Prevention***: By limiting the number of login attempts from a single IP address, it makes it nearly impossible for an attacker to guess a user's password.
+    - ***Resource Management***: It ensures that no single user can consume an excessive amount of server resources, guaranteeing fair access for all users.
+4. ***Data and Payment Security***: protecting sensitive user and financial data.
+    - ***End-to-End Encryption***: All data transmitted between the user's browser and our servers will be encrypted using HTTPS (SSL/TLS). 
+    - ***PCI Compliance***: not handle sensitive credit card information directly. Instead, we'll integrate with a reputable third-party payment gateway like Stripe or Braintree. These services are PCI DSS compliant and use tokenization to securely handle credit card data, so our system never stores or processes raw payment information.
+    - ***Input Validation and Sanitization***: To prevent attacks like SQL injection and Cross-Site Scripting (XSS), all user inputs will be rigorously validated and sanitized. 
+5. ***Regular Audits and Monitoring***.
+6. ***Principle of Least Privilege***: All system accounts and services will be granted only the minimum permissions necessary to perform their functions. For example, a database user for the web application will only have read and write permissions to the application's data, not to system-level tables.

@@ -1,5 +1,5 @@
 # airbnb-clone-project
-Project of Airbnb Clone in the ALX ProDev Backend program.
+Project of Airbnb Clone in the ALX ProDev Backend and ProDev Frontend program.
 
 ## Overview of the Project
 The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
@@ -219,3 +219,64 @@ To build a CI/CD pipeline, you'll need a combination of tools:
 3. ***Containerization***: Docker is the primary tool for containerizing your application. The pipeline will build a Docker image of your app, which can then be easily deployed to a server.
 
 4. ***Cloud Platform***: A service to host your application. AWS, Google Cloud Platform (GCP), or Microsoft Azure are popular choices.
+
+## FrontEnd Section
+### UI/UX Design Planning
+The design goals are: 
+- Create intuitive booking flow
+- Maintain visual consistency
+- Ensure fast loading times
+- Prioritize mobile responsiveness
+***Include descriptions of the three primary pages*** 
+- Property Listing View: Grid display of available properties with filters
+- Listing Detailed View: Complete property details with images and booking form
+- Simple Checkout View in a table view: Streamlined payment and booking confirmation
+* A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
+
+### Figma Design Specifications
+Color Styles:
+
+Primary: #FF5A5F
+Secondary: #008489
+Background: #FFFFFF
+Text: #222222
+Secondary Text: #717171
+Typography:
+
+Primary Font: Circular, Medium (500), 16px
+Headings: Circular, Bold (700), 24px-32px
+Secondary Text: Circular, Book (400), 14px
+
+### Project Roles and Responsibilities
+Role -------------------------------	Responsibilities
+Project Manager --------------------	Oversees timeline, coordinates team, manages deliverables
+Frontend Developers	----------------    Implements UI components, ensures responsive design
+Backend Developers  ----------------  	Builds APIs, manages database, implements business logic
+Designers	------------------------    Creates mockups, maintains design system, ensures UX quality
+QA/Testers -------------------------	Writes test cases, performs testing, reports bugs
+DevOps Engineers -------------------	Manages deployment, CI/CD pipeline, server infrastructure
+Product Owner ----------------------	Defines requirements, prioritizes features, represents stakeholders
+Scrum Master -----------------------	Facilitates agile processes, removes blockers, organizes meetings
+
+
+### UI Component Patterns
+Planned Components
+1. Navbar
+- Logo
+- Search bar
+- User navigation
+- Responsive menu
+
+2. Property Card
+- Property image
+- Basic details (price, location, rating)
+- Favorite button
+- Responsive layout
+
+3. Footer
+- Site links
+- Company information
+- Social media links
+- Copyright information
+- Each component will be designed for reusability and consistency across the application.
+
